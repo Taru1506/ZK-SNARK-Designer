@@ -1,6 +1,6 @@
 pragma circom 2.0.0;  
 
-template AmanCircuit () {
+template TaruCircuit () {
    // signal inputs
    signal input a;
    signal input b;
@@ -54,4 +54,4 @@ template OR() {
     out <== a + b - a*b;
 }
 
-component main = AmanCircuit();
+component main = TaruCircuit();
